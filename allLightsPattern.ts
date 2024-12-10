@@ -10,8 +10,9 @@ namespace xmas {
 
         onForever() {
             this.strip.showColor(neopixel.colors(NeoPixelColors.Red))            
-            basic.pause(1000)
+            basic.pause(200)
             this.strip.showColor(neopixel.colors(NeoPixelColors.Green))
+            basic.pause(200)
         }
 
     }
